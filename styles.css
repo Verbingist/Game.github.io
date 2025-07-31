@@ -1,0 +1,35 @@
+html,
+body {
+    margin: 0px;
+    border: 3px solid black;
+}
+
+.block {
+    position: relative;
+    margin: 10px;
+    width: 100px;
+    height: 100px;
+    border: 3px solid black;
+}
+
+.noneBlock {
+    position: relative;
+    margin: 10px;
+    width: 100px;
+    height: 100px;
+    border: 3px solid red;
+}
+
+div {
+    display: flex;
+    justify-content: center;
+}
+
+.player {
+    position: absolute;
+    top: 25px;
+    left: 25px;
+    height: 50px;
+    width: 50px;
+    background-color: red;
+}
